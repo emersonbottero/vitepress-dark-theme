@@ -1,0 +1,27 @@
+{
+  "name": "vitepress-dark-theme",
+  "version": "0.1.1",
+  "description": "Basic dark theme for vitepress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emersonbottero/vitepress-dark-theme.git"
+  },
+  "keywords": [
+    "vitepress",
+    "dark"
+  ],
+  "man": "index.js",
+  "author": "Emerson Bottero Branco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emersonbottero/vitepress-dark-theme/issues"
+  },
+  "homepage": "https://github.com/emersonbottero/vitepress-dark-theme#readme",
+  "peerDependencies": {
+    "vitepress": "^0.21.6"
+  }
+}
