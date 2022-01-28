@@ -80,5 +80,6 @@ body.dark-mode .custom-block.warning {
 }
 
 body.dark-mode .custom-block.danger {
-  background-color: #ffe6e6;
+  background-color: #815252;
+  color: #fff;
 }
