@@ -1,6 +1,6 @@
 {
   "name": "vitepress-dark-theme",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Basic dark theme for vitepress",
   "main": "index.js",
   "scripts": {
