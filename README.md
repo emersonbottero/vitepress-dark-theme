@@ -1,8 +1,9 @@
 # vitepress-dark-theme
 
 Basic dark theme for vitepress
-
-Now it is using the search slot until other one is created in the default template.
+It starts with the current OS theme and for now it does not save the state.
+so refreshes will reset theme to OS default
+It add itself as last element in the navLink slot
 
 # Usage
 

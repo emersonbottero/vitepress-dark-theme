@@ -1,4 +1,4 @@
-body.dark-mode {
+body.dark {
   --c-divider: var(--c-divider-dark);
   --c-text: var(--c-text-dark-1);
   --c-text-light: var(--c-text-dark-2);
@@ -10,7 +10,7 @@ body.dark-mode {
   --code-bg-color: #282c34;
   --c-white: var(--c-black);
   --c-white-dark: #f8f8f8;
-  --c-black: #0d1117;
+  --c-black: #1a1a1a;
   --c-divider-light: rgba(60, 60, 67, 0.12);
   --c-divider-dark: rgba(84, 84, 88, 0.48);
   --c-text-light-1: #2c3e50;
@@ -49,11 +49,11 @@ body.dark-mode {
     0 -3px 6px 0 rgba(69, 98, 155, 0.12);
 }
 
-body.dark-mode tr:nth-child(2n) {
+body.dark tr:nth-child(2n) {
   background-color: #2a2a2a;
 }
 
-body.dark-mode .DocSearch {
+body.dark .DocSearch {
   --docsearch-primary-color: var(--c-brand);
   --docsearch-highlight-color: var(--docsearch-primary-color);
   --docsearch-searchbox-shadow: inset 0 0 0 2px var(--docsearch-primary-color);
@@ -62,28 +62,28 @@ body.dark-mode .DocSearch {
   --docsearch-searchbox-background: #333;
 }
 
-body.dark-mode .DocSearch-Button:hover {
+body.dark .DocSearch-Button:hover {
   box-shadow: var(--docsearch-searchbox-shadow);
   color: var(--docsearch-text-color);
   outline: none;
 }
 
-body.dark-mode .custom-block.details,
-body.dark-mode .custom-block.info,
-body.dark-mode .custom-block.tip {
+body.dark .custom-block.details,
+body.dark .custom-block.info,
+body.dark .custom-block.tip {
   background-color: #2f2f2f;
 }
 
-body.dark-mode .custom-block.warning {
+body.dark .custom-block.warning {
   background-color: #ffe56436;
   color: #ccc18c;
 }
 
-body.dark-mode .custom-block.danger {
+body.dark .custom-block.danger {
   background-color: #6e4f4fd2;
   color: #f5d3d3;
 }
 
-body.dark-mode .custom-block.danger .custom-block-title {
+body.dark .custom-block.danger .custom-block-title {
   color: #f6b9b9;
 }
