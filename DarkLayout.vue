@@ -20,14 +20,14 @@ onMounted(() => {
       if (navBar) {
         navBar.insertAdjacentHTML(
           'beforeend',
-          `<div class="item" style="padding: 0 1.5rem;" onclick="document.body.classList.toggle('dark'); this.innerHTML= document.body.classList.contains('dark') ? '🔆' : '🌙';"> ${initial} </div>`
+          `<div class="item" style="padding: 0 1.5rem;;cursor: pointer;" onclick="document.body.classList.toggle('dark'); this.innerHTML= document.body.classList.contains('dark') ? '🔆' : '🌙';"> ${initial} </div>`
         )
       }
       navBar = navBars[1]
       if (navBar) {
         navBar.insertAdjacentHTML(
           'beforeend',
-          `<div class="item" style="padding: 0 1.5rem;" onclick="document.body.classList.toggle('dark'); this.innerHTML= document.body.classList.contains('dark') ? '🔆' : '🌙';"> ${initial} </div>`
+          `<div class="item" style="padding: 0 1.5rem;;cursor: pointer;" onclick="document.body.classList.toggle('dark'); this.innerHTML= document.body.classList.contains('dark') ? '🔆' : '🌙';"> ${initial} </div>`
         )
       }
     }
