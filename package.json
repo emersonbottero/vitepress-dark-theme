@@ -1,6 +1,6 @@
 {
   "name": "vitepress-dark-theme",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Basic dark theme for vitepress",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,10 @@
     "dark"
   ],
   "man": "index.js",
+  "files": [
+    "DarkLayout.vue",
+    "dark-theme.css"
+  ],
   "author": "Emerson Bottero Branco",
   "license": "MIT",
   "bugs": {
